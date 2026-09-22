@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline Archive</title>
+<meta name="description" content="A command-line tool that copies openly published AI models into storage you control, and proves every byte.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Offline Archive</h1>
+<p class="lede">Keep your own verified copy of openly published AI models, and the software to run them.</p>
+
+<h2>What it does</h2>
+<p>Offline Archive is a command-line tool. It copies AI model files and runtimes from their official sources (Hugging Face and GitHub releases) into storage you control: your own Google Drive or a local disk.</p>
+<ul>
+<li>Every file is checked against a pinned SHA-256 hash before it counts as done.</li>
+<li>Transfers resume from the exact byte where they stopped, after a crash, a reboot or a lost connection.</li>
+<li>Nothing is staged on your computer's disk when the destination is Google Drive.</li>
+</ul>
+
+<h2>How it uses Google Drive</h2>
+<p>It asks for one permission, <code>drive.file</code>. That lets it see and change only the files and folders it creates itself. It cannot open anything else in your Drive.</p>
+
+<h2>Where it runs</h2>
+<p>On your own computer or server. Your Google sign-in is stored on that machine and nowhere else. The developer runs no server and receives no data from you.</p>
+
+<footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
