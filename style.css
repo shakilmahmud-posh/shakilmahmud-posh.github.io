@@ -7,6 +7,6 @@ h1{font-size:30px;line-height:1.2;margin:0 0 8px}
 h2{font-size:19px;margin:36px 0 8px}
 p,li{color:var(--fg)}
 .lede{color:var(--muted);margin:0 0 28px}
-a{color:var(--link)}
+a{color:var(--link);overflow-wrap:anywhere}
 code{font:15px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--line);padding:1px 5px;border-radius:4px}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
